@@ -1,0 +1,6 @@
+Assignments
+To complete this assignment, create a Jupyter Notebook containing your solutions to the following tasks:
+
+In this task, you'll build an ANN and train and test it using the MNIST data. This ANN should consist of two hidden layers and one output layer. All of the hidden layers should be dense. The first layer and the second layer should have neuron sizes of 32 and 16, respectively. Train this model for 20 epochs, and compare your training and test set performance with the example in the checkpoint. Is there any difference? If so, why?
+
+In this task, build another ANN. This ANN should have five hidden layers and one output layer. All of the layers should be dense. The neuron numbers for the hidden layers should be 1024, 512, 256, 128, and 64. Train this model for 20 epochs, and test it using the same data from the previous task. Then compare your results. Is there any difference? If so, why?

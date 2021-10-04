@@ -1,0 +1,21 @@
+Hi Sergey, Zahra from the grading team here :)
+
+Well done! You have passed this checkpoint and met all of the requirements for the project. Please see below for some more specific feedback as it connects to the rubric items.
+
+👍 What you did well;
+
+you have clearly preprocessed your data (transforming the 2D data of the fashion MNIST to 1D) so that you can feed it into ANN models.
+you have split your data into training and test sets.
+you have tried different ANN models and train them on your training set, by varying the number of layers, the number of neurons in the layers, and different batch sizes during training.
+you have compared your models' training scores and interpret your results. you have evaluated your models' performances on your test set. Compare the results of your models.
+💡 Optional changes / Ideas / Improvements:
+
+it is always a best practice to write a function for any things that need to repeat several times in your code. you could efficiently write a function to build NNs by varying their different parameters (number of layers, number of neurons in the layers, and different batch sizes during training),
+
+I would recommend create a data frame and save all results (Test score, Test accuracy) founded from each model and corresponding features for each model (layers, bs, act); doing that helps a reader to compare results at glance.
+
+Do you want to have an intuitive feel on how NN works? So play with doing an experiment with creating your own NN: playground.tensorflow.org
+
+Thanks,
+
+Zahra Yazdi, Grading Team

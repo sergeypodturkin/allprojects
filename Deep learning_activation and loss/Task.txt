@@ -1,0 +1,17 @@
+Assignments
+In this assignment, you'll continue working on the MNIST dataset. Train and test the models specified in the tasks below using the MNIST data. You can choose the number of epochs for training, but for the sake of comparison, it's a good idea to start by training for 20 epochs. And remember, you almost always want to use Softmax for the output layer.
+
+To complete this assignment, create a Jupyter Notebook containing your solutions to the following tasks:
+
+In this task, you'll implement several ANN models with different activation functions. For each, use the cross-entropy loss function as the loss function. Specifically, do the following:
+
+Implement a three-layer ANN model with 128, 64, and 10 neurons in the layers. Use the tanh activation function for each layer.
+Implement a three-layer ANN model with 128, 64, and 10 neurons in the layers. Use the sigmoid activation function for each layer.
+Implement a three-layer ANN model with 128, 64, and 10 neurons in the layers. Use the ReLU activation function for each layer.
+Compare the results of each model. Which activation function performed best?
+In this task, you'll implement the ANN models specified below. For each, use the hinge loss function as the loss function. Specifically, do the following:
+
+Implement a three-layer ANN model with 128, 64, and 10 neurons in the layers. Use the tanh activation function for each layer.
+Implement a three-layer ANN model with 128, 64, and 10 neurons in the layers. Use the sigmoid activation function for each layer.
+Implement a three-layer ANN model with 128, 64, and 10 neurons in the layers. Use the ReLU activation function for each layer.
+Compare the results of each model with the result of the same model from the previous task. Which loss function performed best?

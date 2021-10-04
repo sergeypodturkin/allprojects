@@ -1,0 +1,62 @@
+In this assessment, you will load a dataset and train a logistic regression classifier using the techniques discussed in the lesson to measure the performance. You'll be using the Statlog Shuttle dataset from UCI. Start by accessing the dataset directly to train your classifier, as follows:
+df_train_data = pd.read_csv('http://archive.ics.uci.edu/ml/machine-learning-databases/statlog/shuttle/shuttle.tst', header=None, sep=' ')
+After you complete the challenge and the associated assessment questions, you will be asked to provide a URL to your Jupyter Notebook.
+The dataset
+Each record contains nine numerical attributes. The 10th column is the target column. There are two classes to predict; they are called positive and negative.
+
+1. Import necessary packages
+For this exercise, you need the following packages:
+
+pandas
+train_test_split
+LogisticRegression
+PyPlot from Matplotlib
+KNeighborsClassifier
+LogisticRegressionClassifier
+RandomForestClassifier
+DummyClassifier
+2. Load and prepare the dataset
+Load the training data into a DataFrame named df_train_data.
+Create binary classification problem; rename some class labels.
+Create a DataFrame of nine features named X, drop column 9.
+Create a DataFrame of labels named y, select only column 9.
+Split the data into a training set and a test set.
+3. Create the model
+Instantiate a logistic regression classifier with an lbfgs solver.
+Fit the classifier to the data.
+4. Calculate accuracy
+Calculate and print the accuracy of the model on the test data.
+
+5. Dummy classifier
+Use the dummy classifier to calculate the accuracy of a purely random chance.
+
+Compare this result to the result of the logistic regression classifier above. What does this result tell you?
+
+6. Confusion matrix
+Print the confusion matrix.
+
+7. Plot a nicer confusion matrix (optional)
+Use the plot_confusion_matrix() function from above to plot a nicer-looking confusion matrix.
+
+8. Calculate metrics
+Print the F₁, Fᵦ, precision, recall, and accuracy scores.
+
+9. Print a classification report
+10. Plot the ROC curve and AUC
+Calculate AUC and plot the curve.
+
+11. Plot precision-recall curve
+Plot the precision-recall curve for the model above.
+
+Find the best value for C in the logistic regression classifier for avoiding overfitting. Plot the training and testing accuracy over a range of C values from 0.05 to 1.5.
+
+12. Cross-validation
+Perform fivefold cross-validation for a logistic regression classifier. Print the five accuracy scores and the mean validation score.
+
+13. Is this really linear?
+Your linear classifier is not giving you better accuracy than the dummy classifier. Suppose that the data was not linearly separable. Instantiate and train a KNN model with k = 7. How does the accuracy of the KNN model compare to the logistic regression from above? What does that tell you about the data?
+
+14. Random forest
+Next, instantiate and fit a random forest classifier and calculate the accuracy of that model.
+
+Now, answer some additional questions about analyzing model performance.

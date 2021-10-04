@@ -1,0 +1,15 @@
+Hello Surgey, Zahra from the grading team here :)
+
+Great job on your supervised learning capstone, although, I would recommend some more context and verbiage in your notebook. especially adding an introduction about your project and the goal of this project. the Code communicates the details of what you are doing but it's good to have a brief explanation in plain English/language of the what and why of your processes and steps. This not only helps the reader but helps future you when you look back at the project 6 months from now.
+
+👍 What you did well:
+
+You have found a suitable dataset that includes a target variable for the supervised learning problem.
+You have cleaned the data.
+You have done the necessary feature engineering and selected the relevant features for the target variable.
+You have tried multiple models in this classification project.
+You have done a great exploration of the data, including visualizations in the EDA stage, and a more in-depth exploration of the relationships among the features.
+Finally, you have compared the results of the models but you didn't comment on which is the best performing. You need to include a clear summary comparing the different models and selecting the best performing one, then justifying your decision verbally.
+Thanks,
+
+Zahra Yazdi, Grading Team

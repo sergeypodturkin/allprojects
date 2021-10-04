@@ -1,0 +1,26 @@
+Students are asked to create a notebook that walks a user through a research question and testing of one or more hypotheses.
+
+The notebook is meant to load, wrangle, analyze, and visualize data, and it should tell a clear story to the end user (between use of Markdown text and visualizations, and print statements)
+
+To pass, the notebook must get at least 8/10 points
+
+In analyzing this notebook, your job is to analyze the overall storytelling as well as the code.
+
+Data pipeline (1/2): The notebook connects loads, wrangles, and cleans data appropriately. Since you are going to use BMI to make hypothesis, it's important to do an imputation to fill the missing values.
+Data visualization (2.5/3): The notebook contains compelling visualizations that help advance the story and test the hypothesis. It will be great if you can show a heat plot to reveal the correlation among all features and between your independent variables and dependent variable.
+Data storytelling (1.5/2): Overall, the notebook tells a clear story about the research question, the hypothesis, and the results of testing it. The analysis tests for statistical significance and includes relevant indicators such as p-values and confidence intervals to answer the hypothesis. For the BMI test, the Shapiro test suggest the sampling distribution is not following the normal distribution, you may want to use the Kruskal test instead.
+Data analysis (2/3): The data analysis overall makes sense. The conclusions the student draws from the code they run are reasonable if make a little correction on the BMI part.
+Hi Sergey, you scored 7/10. This is definitely a great start, most of your work is clear and reasonable, please read the feedback above and update your work, especially the BMI part.
+
+Graded by Vincent Yin.
+Hello Sergey, Zahra from the grading team here :)
+
+Well done! You have passed this checkpoint now and clearly demonstrated a good understanding of experimental design and hypothesis testing.
+
+👍 What you did well:
+
+You have taken the prior grader's feedback into account and filled null values of each column with median values of that column; also you have included a heatmap to show the relationship between different variables.
+
+Thanks,
+
+Zahra Yazdi, Grading Team

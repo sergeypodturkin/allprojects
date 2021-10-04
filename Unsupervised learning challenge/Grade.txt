@@ -1,0 +1,14 @@
+Hi Sergey! This is Zahra from the grading team. :)
+
+Well done! You have made improvements based on the previous feedbacks and now passed this checkpoint.
+
+👍 What you did well:
+
+you have clearly explained about the project and your data set in introduction.
+you have tried alternative methods for dimensional reduction data(t-SNE and UMAP ).
+💡 Optional changes / Ideas / Improvements:
+
+I would still have liked to see a bit more detail in your comparison of the different methods, clustering and DR methods. I would have liked to see a bit more detail in your discussion of how these unsupervised learning techniques (both clustering and dimensionality reduction) allowed you to gain insights about your data -- what did you learn about your data from applying these techniques?
+You have incorporated some thorough adjustment and improvement on DR methods and DBSCAN method, along with adding an introduction and more text cells in your notebook. I hope you found this to be a beneficial process, as it really improves the quality of your overall project!
+
+Graded by Zahra Yazdi.

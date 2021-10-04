@@ -1,0 +1,22 @@
+Hi Sergey!
+
+Well done, you have performed all required tasks for this assignment and passed the checkpoint. I have just one comment for a question that you missed, but you do not need to resubmit--just consider the answer to the question for yourself.
+
+CHECK: import the load_digits function from the sklearn.datasets library
+CHECK: invoke load_digits with the return_X_y parameter set to true and store the returned dataset in variable X and y.
+CHECK: Display the number of rows of data returned
+CHECK: Display the number of features in the dataset
+CHECK (mostly): Use Numpy's bincount to display how many samples belong to each class. Is this a balanced dataset?
+You did not answer the question. I recommend considering what your answer to it would be: Does this seem like a relatively balanced dataset?
+
+CHECK: Use train_test_split to split the dataset into a training set and a test set. Set the proportion of test data to 20%. Set a random state value so that the results will be repeatable.
+CHECK: import LogisticRegression classifier from sklearn
+CHECK: instantiate a LogisticRegression classifier with the 'lbfgs' solver and 'ovr' multiclass strategy. You may have to set the maximum number of iterations to 1000.
+CHECK: perform cross validation on the model
+CHECK: print the cross validation scores and the mean of the cross validation scores.
+CHECK: Perform the same steps as above but this time with a RandomForestClassifier.
+Nice work!
+
+Eleanor
+
+Graded by Eleanor Thomas.

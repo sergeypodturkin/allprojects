@@ -1,0 +1,8 @@
+Assignment
+In this assignment, you'll continue working with the fashion MNIST dataset. For the sake of comparability, use the same 10,0000-observation sample that you used in the previous checkpoint. To complete this assignment, submit a link to a Jupyter Notebook containing your solutions to the tasks outlined below. You can also take a look at these example solutions.
+
+Load the dataset and conduct any necessary preprocessing, such as normalizing the data.
+Apply t-SNE to the data by setting n_components=2.
+Using the two-dimensional t-SNE representation, draw a graph of the data by coloring and labeling the data points as you did in the checkpoint.
+Do you think that the t-SNE solution is satisfactory? Can you easily distinguish between the different classes? Which algorithm produced better results, t-SNE or the PCA that you applied in the previous checkpoint's assignment?
+Now, play with the different perplexity values and apply t-SNE for each of them. Which perplexity value is best in terms of the two-dimensional representation clarity?

@@ -1,0 +1,30 @@
+Assignment
+To complete this assignment, submit a link to a Jupyter Notebook containing your solutions to the tasks outlined below. You can also take a look at these example solutions.
+
+Get the silhouette coefficient of the two-cluster k-means solution. You'll notice that the silhouette coefficient will turn out to be greater than the one above, where the cluster number is three. You know that the iris dataset consists of three different clusters. So the silhouette score of the solution where the number of clusters is equal to the correct number of classes is actually lower than the silhouette score of the solution where the number of clusters is different from the correct number of classes. Can you explain why this is?
+
+In this assignment, you'll continue working with the heart disease dataset from the UC Irvine Machine Learning Repository.
+
+Load the dataset from Thinkful's database. To connect to the database, use these credentials:
+
+ postgres_user = 'dsbc_student'
+ postgres_pw = ''
+ postgres_host = '142.93.121.174'
+ postgres_port = '5432'
+ postgres_db = 'heartdisease'
+The dataset needs some preprocessing. So, before working with the dataset, apply the following code:
+
+ # Define the features and the outcome
+ X = heartdisease_df.iloc[:, :13]
+ y = heartdisease_df.iloc[:, 13]
+
+ # Replace missing values (marked by `?`) with a `0`
+ X = X.replace(to_replace='?', value=0)
+
+ # Binarize `y` so that `1` means heart disease diagnosis and `0` means no diagnosis
+ y = np.where(y > 0, 1, 0)
+Here, X will represent your features and y will hold the labels. If y is equal to 1, that indicates that the corresponding patient has heart disease. And if y is equal to 0, then the patient doesn't have heart disease.
+
+Split the data randomly into two. Apply k-means using two, three, and four as the number of clusters, as you did when you were exploring consistency earlier in this checkpoint. Assess the consistency of the solutions using visualization. Which one seems to be the best?
+Apply k-means on the whole dataset by setting k equal to 2, 3, and 4. Get the ARI score for each of them. Which model is best?
+Apply k-means on the whole dataset by setting k equal to 2, 3, and 4. Get the silhouette coefficient for each of them. Which model is best?

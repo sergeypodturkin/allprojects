@@ -1,0 +1,8 @@
+Assignment
+In this assignment, you'll continue working with the fashion MNIST dataset. For the sake of comparability, use the same 10,000-observation sample that you used in the previous two checkpoints. To complete this assignment, submit a link to a Jupyter Notebook containing your solutions to the following tasks below. You can also take a look at these example solutions.
+
+Load the dataset and conduct any necessary preprocessing, such as normalizing the data.
+Apply UMAP to the data.
+Using the two-dimensional UMAP representation, draw a graph of the data by coloring and labeling the data points as you did in the checkpoint.
+Do you think that the UMAP solution is satisfactory? Can you easily distinguish between the different classes? Which algorithm produced better results, UMAP or the others (t-SNE or PCA) that you applied in the assignments from the previous checkpoints?
+Now, play with the different hyperparameter values of the UMAP, and apply UMAP for each of them. Which combination is the best in terms of the two-dimensional representation clarity?

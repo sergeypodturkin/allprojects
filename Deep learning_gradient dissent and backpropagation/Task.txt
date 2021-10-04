@@ -1,0 +1,17 @@
+Assignments
+In this assignment, you'll continue working on the MNIST dataset. So, train and test the models specified in the tasks below using the MNIST data. You can choose the number of epochs for training. But for the sake of comparison, it's a good idea to train for 20 epochs.
+
+To complete this assignment, create a Jupyter Notebook containing your solutions to the following tasks:
+
+In this task, you'll implement several ANN models with different batch sizes. Specifically, do the following:
+
+Implement a three-layer ANN model with 128, 64, and 10 neurons in the layers. Use 8 as the mini-batch size.
+Implement a three-layer ANN model with 128, 64, and 10 neurons in the layers. Use 128 as the mini-batch size.
+Implement a three-layer ANN model with 128, 64, and 10 neurons in the layers. Use the full sample as the batch size.
+Compare the results of each model. Which batch size performed best?
+In this task, you'll implement several ANN models with different learning rates for the stochastic gradient descent. In all of the models below, use 128 as your mini-batch size.
+
+Implement a three-layer ANN model with 128, 64, and 10 neurons in the layers. Use 0.01 as the learning rate.
+Implement a three-layer ANN model with 128, 64, and 10 neurons in the layers. Use 100 as the learning rate.
+Implement a three-layer ANN model with 128, 64, and 10 neurons in the layers. Use 0.0000001 as the learning rate.
+Compare the results of each model. Which learning rate performed best?
